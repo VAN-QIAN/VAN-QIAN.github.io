@@ -1,0 +1,162 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Qian Ma
+  given: Qian
+  family: Ma
+  alternate: 马千
+  pronunciation: ""
+  pronouns: ""
+status:
+  icon: "☕️"
+role: Ph.D. Student in Computer Science
+bio: |
+  I am a Ph.D. student in Computer Science at the DAMI Lab, Rensselaer Polytechnic Institute, advised by Prof. [Yao Ma](https://yaoma24.github.io/). My research focuses on multimodal learning and reasoning, vision-language models, multimodal RAG, knowledge-based visual question answering (KB-VQA), and reliable foundation-model evaluation. I also have expertise in graph learning, graph foundation models, graph self-supervised learning, spatio-temporal forecasting, time-series modeling, and urban computing.
+email: maq5@rpi.edu
+phone: "+1 518-308-3995"
+affiliations:
+  - name: Rensselaer Polytechnic Institute
+    url: https://www.rpi.edu/
+links:
+  - icon: hero/at-symbol
+    url: mailto:maq5@rpi.edu
+    label: Email
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=hBic7eMAAAAJ
+    label: Google Scholar
+  - icon: brands/github
+    url: https://github.com/VAN-QIAN
+    label: GitHub
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/qian-ma-939269274/
+    label: LinkedIn
+  - icon: hb/cv
+    url: uploads/MAQian_Resume.pdf
+    label: CV
+interests:
+  - Multimodal Learning and Reasoning
+  - Vision-Language Models
+  - Multimodal RAG
+  - Knowledge-Based Visual Question Answering
+  - Reliable Foundation-Model Evaluation
+  - Graph Learning and Graph Foundation Models
+  - Spatio-Temporal Forecasting
+education:
+  - degree: Ph.D. Student in Computer Science
+    institution: Rensselaer Polytechnic Institute
+    start: "Jan. 2024"
+    end: "Jan. 2028 (expected)"
+    summary: |
+      Advised by Prof. [Yao Ma](https://yaoma24.github.io/).
+  - degree: M.Sc. in Multimedia Information Technology, Distinction
+    institution: City University of Hong Kong
+    start: "2022"
+    end: "2024"
+  - degree: B.Eng. in Software Engineering - Systems and Technology
+    institution: University of Electronic Science and Technology of China
+    start: "2018"
+    end: "2022"
+experience:
+  - role: Ph.D. Researcher
+    org: DAMI-Lab, Rensselaer Polytechnic Institute
+    start: "2024-01-01"
+    summary: |
+      Lead first-author projects on multimodal RAG and KB-VQA, studying how VLM/MLLM systems ground visual queries to external knowledge. My recent work examines KB-VQA benchmark reliability, training-free entity identification, and foundation-model evaluation for non-textual structure.
+    tags:
+      - Multimodal RAG
+      - KB-VQA
+      - VLM Evaluation
+      - Graph Foundation Models
+  - role: Graduate Research Intern
+    org: AT&T Chief Data Office
+    start: "2025-05-01"
+    end: "2025-08-31"
+    summary: |
+      Conducted research on multimodal RAG for knowledge-grounded visual question answering, built reproducible datasets, prompts, evaluation code, and retrieval baselines, and initiated directions that led to first-authored ECCV 2026 and ACL 2026 papers.
+    tags:
+      - Multimodal RAG
+      - Knowledge-Grounded VQA
+      - Evaluation
+  - role: Research Assistant
+    org: AML Lab, City University of Hong Kong
+    start: "2022-10-01"
+    end: "2023-06-30"
+    summary: |
+      First-authored HIEST (CIKM 2023), showing that traffic forecasting benefits from modeling regional and global sensor hierarchies. Collaborated on PromptST for prompt-enhanced spatio-temporal multi-attribute prediction.
+    tags:
+      - Traffic Forecasting
+      - Time-Series Modeling
+      - Urban Computing
+  - role: Software Engineering Intern, SAP Data Intelligence
+    org: SAP Labs China
+    start: "2021-04-01"
+    end: "2022-05-31"
+    summary: |
+      Developed and maintained two CI/CD automation microservices for a cloud infrastructure service automation platform and worked with SaaS and cloud-native teams on infrastructure workflows.
+    tags:
+      - CI/CD
+      - Cloud Infrastructure
+      - Microservices
+  - role: Undergraduate Research Assistant
+    org: University of Electronic Science and Technology of China
+    start: "2019-12-01"
+    end: "2020-06-30"
+    summary: |
+      Processed large-scale urban driving records for grid-based urban computing research and implemented MapReduce-style parallel preprocessing.
+    tags:
+      - Urban Computing
+      - Data Preprocessing
+skills:
+  - name: Programming
+    items:
+      - label: Python
+        level: 5
+      - label: PyTorch / PyTorch Lightning
+        level: 5
+      - label: Java / JavaScript / Go / C
+        level: 4
+  - name: Multimodal and RAG
+    items:
+      - label: VLM/MLLM evaluation
+        level: 5
+      - label: Qwen-VL, LLaVA, Llama, EVA-CLIP, CLIP
+        level: 4
+      - label: FAISS, BGE reranking, prompt-based evaluation
+        level: 4
+  - name: Graphs and Time Series
+    items:
+      - label: GNNs and graph self-supervised learning
+        level: 5
+      - label: Graph contrastive learning and graph foundation models
+        level: 5
+      - label: Spatio-temporal forecasting
+        level: 5
+  - name: Systems and Tools
+    items:
+      - label: Linux, Git, Docker, Kubernetes
+        level: 4
+      - label: Slurm, Singularity, Jenkins
+        level: 4
+      - label: LaTeX
+        level: 5
+languages:
+  - name: Mandarin
+    percent: 100
+    label: Native
+  - name: English
+    percent: 90
+    label: Fluent; IELTS 7.0
+awards:
+  - title: Outstanding Student Scholarship
+    awarder: University of Electronic Science and Technology of China
+    date: "2021-09-01"
+    icon: hero/trophy
+  - title: Outstanding Student Scholarship
+    awarder: University of Electronic Science and Technology of China
+    date: "2020-09-01"
+    icon: hero/trophy
+  - title: Outstanding Student Scholarship
+    awarder: University of Electronic Science and Technology of China
+    date: "2018-09-01"
+    icon: hero/trophy

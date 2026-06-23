@@ -1,21 +1,18 @@
 [build]
-  command = "hugo --gc --minify -b $URL"
+  command = "corepack enable && pnpm install --frozen-lockfile && pnpm run build:hugo -- --baseURL $URL && pnpm run pagefind"
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.123.3"
+  HUGO_VERSION = "0.163.3"
   HUGO_ENABLEGITINFO = "true"
+  NODE_VERSION = "22"
+  PNPM_VERSION = "10.14.0"
 
 [context.production.environment]
   HUGO_ENV = "production"
 
 [context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+  command = "corepack enable && pnpm install --frozen-lockfile && pnpm run build:hugo -- --buildFuture --baseURL $DEPLOY_PRIME_URL && pnpm run pagefind"
 
 [context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
-
-[[plugins]]
-  package = "netlify-plugin-hugo-cache-resources"
-  [plugins.inputs]
-    debug = true
+  command = "corepack enable && pnpm install --frozen-lockfile && pnpm run build:hugo -- --baseURL $DEPLOY_PRIME_URL && pnpm run pagefind"
