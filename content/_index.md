@@ -79,7 +79,9 @@ sections:
       title: Gallery
       subtitle: ""
       text: |-
-        A space for conference photos, posters, and snapshots from research travel.
+        Conference photos and research-travel snapshots, organized as visual field notes.
+
+        **Latest:** [ACL 2026 · San Diego →](/gallery/)
     design:
       columns: "1"
       spacing:

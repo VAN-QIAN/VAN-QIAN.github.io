@@ -17,7 +17,7 @@ main:
     url: /#misc
     weight: 45
   - name: Gallery
-    url: /#gallery
+    url: /gallery/
     weight: 46
   - name: Contact
     url: /#contact
