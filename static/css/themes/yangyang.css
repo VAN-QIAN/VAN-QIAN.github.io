@@ -1,0 +1,287 @@
+/*
+ * Character theme: Yangyang / 秧秧
+ * Palette source: mist-white feathers, ice-blue wind, resonant cobalt,
+ * midnight indigo, and the restrained warm-metal details in her key art.
+ */
+
+:root {
+  color-scheme: light;
+
+  /* Character swatches */
+  --yangyang-mist: #f7fbfd;
+  --yangyang-frost: #e5f2f8;
+  --yangyang-feather: #bcddec;
+  --yangyang-wind: #75bedb;
+  --yangyang-resonance: #497fbd;
+  --yangyang-cobalt: #315ca2;
+  --yangyang-indigo: #1d3159;
+  --yangyang-night: #101c34;
+  --yangyang-moon-metal: #cdbf94;
+
+  /* HugoBlox primary scale — resonant blue */
+  --hb-primary-50-rgb: 244 249 253;
+  --hb-primary-100-rgb: 229 241 249;
+  --hb-primary-200-rgb: 199 224 240;
+  --hb-primary-300-rgb: 154 199 226;
+  --hb-primary-400-rgb: 104 166 207;
+  --hb-primary-500-rgb: 73 127 189;
+  --hb-primary-600-rgb: 49 92 162;
+  --hb-primary-700-rgb: 39 72 132;
+  --hb-primary-800-rgb: 31 57 104;
+  --hb-primary-900-rgb: 29 49 89;
+  --hb-primary-950-rgb: 16 28 52;
+
+  /* HugoBlox secondary scale — wind cyan */
+  --hb-secondary-50-rgb: 243 252 254;
+  --hb-secondary-100-rgb: 220 246 250;
+  --hb-secondary-200-rgb: 188 235 243;
+  --hb-secondary-300-rgb: 137 216 231;
+  --hb-secondary-400-rgb: 89 195 218;
+  --hb-secondary-500-rgb: 57 165 196;
+  --hb-secondary-600-rgb: 39 132 166;
+  --hb-secondary-700-rgb: 34 105 135;
+  --hb-secondary-800-rgb: 32 85 108;
+  --hb-secondary-900-rgb: 30 70 89;
+  --hb-secondary-950-rgb: 13 45 61;
+
+  --color-primary-50: rgb(var(--hb-primary-50-rgb));
+  --color-primary-100: rgb(var(--hb-primary-100-rgb));
+  --color-primary-200: rgb(var(--hb-primary-200-rgb));
+  --color-primary-300: rgb(var(--hb-primary-300-rgb));
+  --color-primary-400: rgb(var(--hb-primary-400-rgb));
+  --color-primary-500: rgb(var(--hb-primary-500-rgb));
+  --color-primary-600: rgb(var(--hb-primary-600-rgb));
+  --color-primary-700: rgb(var(--hb-primary-700-rgb));
+  --color-primary-800: rgb(var(--hb-primary-800-rgb));
+  --color-primary-900: rgb(var(--hb-primary-900-rgb));
+  --color-primary-950: rgb(var(--hb-primary-950-rgb));
+  --color-secondary-50: rgb(var(--hb-secondary-50-rgb));
+  --color-secondary-100: rgb(var(--hb-secondary-100-rgb));
+  --color-secondary-200: rgb(var(--hb-secondary-200-rgb));
+  --color-secondary-300: rgb(var(--hb-secondary-300-rgb));
+  --color-secondary-400: rgb(var(--hb-secondary-400-rgb));
+  --color-secondary-500: rgb(var(--hb-secondary-500-rgb));
+  --color-secondary-600: rgb(var(--hb-secondary-600-rgb));
+  --color-secondary-700: rgb(var(--hb-secondary-700-rgb));
+  --color-secondary-800: rgb(var(--hb-secondary-800-rgb));
+  --color-secondary-900: rgb(var(--hb-secondary-900-rgb));
+  --color-secondary-950: rgb(var(--hb-secondary-950-rgb));
+
+  /* Blue-tinted neutrals keep the academic layout quiet but distinctive. */
+  --color-gray-50: #f7fafc;
+  --color-gray-100: #edf3f7;
+  --color-gray-200: #dce7ee;
+  --color-gray-300: #bdccd8;
+  --color-gray-400: #8297aa;
+  --color-gray-500: #5f7387;
+  --color-gray-600: #465a70;
+  --color-gray-700: #31445c;
+  --color-gray-800: #20324b;
+  --color-gray-900: #14243d;
+
+  --hb-color-background: var(--yangyang-mist);
+  --hb-color-foreground: #21354d;
+  --hb-color-header-bg: rgb(247 251 253 / 86%);
+  --hb-color-header-fg: var(--yangyang-indigo);
+  --hb-color-footer-bg: #e8f2f7;
+  --hb-color-footer-fg: var(--yangyang-indigo);
+}
+
+html.dark {
+  color-scheme: dark;
+  --hb-color-background: #0d172b;
+  --hb-color-foreground: #e8f3f8;
+  --hb-color-header-bg: rgb(13 23 43 / 88%);
+  --hb-color-header-fg: #e5f2f8;
+  --hb-color-footer-bg: #0a1325;
+  --hb-color-footer-fg: #c7dce8;
+
+  --color-gray-50: #eef6fa;
+  --color-gray-100: #dceaf2;
+  --color-gray-200: #c3d8e4;
+  --color-gray-300: #a4c0d0;
+  --color-gray-400: #83a3b7;
+  --color-gray-500: #66849a;
+  --color-gray-600: #4d667e;
+  --color-gray-700: #344a64;
+  --color-gray-800: #1d304b;
+  --color-gray-900: #101d35;
+}
+
+body.page-wrapper {
+  background: var(--hb-color-background);
+}
+
+#page-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 9% 12%, rgb(117 190 219 / 18%), transparent 30rem),
+    radial-gradient(circle at 91% 42%, rgb(73 127 189 / 11%), transparent 34rem),
+    linear-gradient(155deg, #f9fcfd 0%, #f3f8fb 48%, #edf5fa 100%);
+}
+
+.page-header {
+  border-bottom: 1px solid rgb(73 127 189 / 14%);
+  background: var(--hb-color-header-bg);
+  box-shadow: 0 10px 30px rgb(29 49 89 / 5%);
+  -webkit-backdrop-filter: blur(18px) saturate(135%);
+  backdrop-filter: blur(18px) saturate(135%);
+}
+
+.navbar-brand {
+  color: var(--yangyang-indigo);
+  letter-spacing: 0.025em;
+}
+
+.nav-link {
+  text-decoration-color: rgb(117 190 219 / 60%);
+  text-underline-offset: 0.35rem;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--yangyang-cobalt);
+}
+
+#about {
+  border-bottom: 1px solid rgb(73 127 189 / 12%);
+  background:
+    radial-gradient(ellipse at 18% 22%, rgb(255 255 255 / 88%), transparent 34%),
+    radial-gradient(ellipse at 78% 18%, rgb(117 190 219 / 24%), transparent 36%),
+    linear-gradient(135deg, #f8fcfd 0%, #e8f4fa 50%, #dfeef8 100%);
+}
+
+#about::before,
+#about::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  border: 1px solid rgb(255 255 255 / 58%);
+  border-radius: 50%;
+  filter: blur(1px);
+  transform: rotate(-16deg);
+}
+
+#about::before {
+  width: min(58vw, 48rem);
+  height: 9rem;
+  top: 17%;
+  right: -14rem;
+  box-shadow: 0 0 70px rgb(117 190 219 / 18%);
+}
+
+#about::after {
+  width: min(42vw, 34rem);
+  height: 6rem;
+  bottom: 12%;
+  left: -12rem;
+}
+
+#about .avatar {
+  border-color: rgb(247 251 253 / 92%);
+  box-shadow:
+    0 0 0 1px rgb(73 127 189 / 18%),
+    0 18px 45px rgb(29 49 89 / 18%),
+    0 0 42px rgb(117 190 219 / 16%);
+}
+
+#about .avatar-emoji {
+  background: var(--yangyang-mist);
+  box-shadow: 0 8px 20px rgb(29 49 89 / 14%);
+}
+
+#research,
+#misc,
+#contact {
+  background: linear-gradient(110deg, rgb(229 242 248 / 52%), rgb(247 251 253 / 78%));
+}
+
+#publications,
+#gallery {
+  background: rgb(250 253 254 / 66%);
+}
+
+.home-section-bg {
+  opacity: 0.7;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--yangyang-indigo);
+}
+
+.prose a,
+main a:not(.nav-link) {
+  text-decoration-color: rgb(117 190 219 / 52%);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+.prose a:hover,
+main a:not(.nav-link):hover {
+  color: var(--yangyang-cobalt);
+  text-decoration-color: var(--yangyang-wind);
+}
+
+.btn-primary,
+a.btn-primary {
+  background: linear-gradient(135deg, var(--yangyang-resonance), var(--yangyang-cobalt));
+  box-shadow: 0 10px 24px rgb(49 92 162 / 20%);
+}
+
+footer,
+.page-footer {
+  border-top: 1px solid rgb(73 127 189 / 14%);
+}
+
+::selection {
+  color: var(--yangyang-night);
+  background: #b7e6f1;
+}
+
+:focus-visible {
+  outline-color: var(--yangyang-wind);
+}
+
+html.dark #page-bg {
+  background:
+    radial-gradient(circle at 12% 14%, rgb(73 127 189 / 20%), transparent 31rem),
+    radial-gradient(circle at 88% 36%, rgb(89 195 218 / 10%), transparent 34rem),
+    linear-gradient(155deg, #101d35 0%, #0d172b 52%, #091223 100%);
+}
+
+html.dark #about {
+  background:
+    radial-gradient(ellipse at 22% 18%, rgb(73 127 189 / 19%), transparent 38%),
+    radial-gradient(ellipse at 82% 22%, rgb(89 195 218 / 11%), transparent 36%),
+    linear-gradient(135deg, #111f39 0%, #142844 50%, #0e1b31 100%);
+}
+
+html.dark #research,
+html.dark #misc,
+html.dark #contact {
+  background: linear-gradient(110deg, rgb(29 48 75 / 72%), rgb(13 23 43 / 82%));
+}
+
+html.dark #publications,
+html.dark #gallery {
+  background: rgb(12 23 43 / 72%);
+}
+
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark .navbar-brand {
+  color: #e5f2f8;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #about .animate-pulse {
+    animation: none;
+  }
+}

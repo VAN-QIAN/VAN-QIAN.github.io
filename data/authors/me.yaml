@@ -13,6 +13,20 @@ status:
 role: Ph.D. Student in Computer Science
 bio: |
   I am a Ph.D. student in Computer Science at the DAMI Lab, Rensselaer Polytechnic Institute, advised by Prof. [Yao Ma](https://yaoma24.github.io/). My research focuses on multimodal learning and reasoning, vision-language models, multimodal RAG, knowledge-based visual question answering (KB-VQA), and reliable foundation-model evaluation. I also have expertise in graph learning, graph foundation models, graph self-supervised learning, spatio-temporal forecasting, time-series modeling, and urban computing.
+
+  <aside class="collaboration-note" aria-labelledby="collaboration-note-title">
+    <p class="collaboration-note__eyebrow">Open to conversations &amp; collaboration</p>
+    <h3 id="collaboration-note-title">What I can bring</h3>
+    <p>I bring hands-on experience in multimodal reasoning, RAG, foundation-model evaluation, graph learning, and turning research ideas into reproducible experiments with critical discussion. No project is required, though—I am just as happy to exchange ideas or chat about games, cooking, and whatever you are curious about.</p>
+    <a class="collaboration-note__link" href="mailto:maq5@rpi.edu">Start a conversation <span aria-hidden="true">→</span></a>
+  </aside>
+
+  <aside class="collaboration-note opportunity-note" aria-labelledby="opportunity-note-title">
+    <p class="collaboration-note__eyebrow">Open to work</p>
+    <h3 id="opportunity-note-title">Interested in the right opportunity</h3>
+    <p>I am open to research internships, industry collaborations, and research-focused roles involving multimodal AI, VLM/RAG. If my background could be useful to your team, I would be glad to learn what you are building.</p>
+    <a class="collaboration-note__link" href="mailto:maq5@rpi.edu?subject=Opportunity%20for%20Qian%20Ma"> Please feel free to contact me <span aria-hidden="true">→</span></a>
+  </aside>
 email: maq5@rpi.edu
 phone: "+1 518-308-3995"
 affiliations:
