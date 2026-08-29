@@ -7,8 +7,8 @@ banner:
   image: ""
 ---
 
-1. **Qian Ma**, S M Rayeed, Charles V. Stewart, Qiong Wu, Yao Ma. *Identifying and Resolving Pitfalls of Knowledge-Based VQA Benchmarks: Auditing, Repairing, and Augmenting.* ECCV 2026, to appear.
-2. **Qian Ma**, Qiong Wu, Zhengyi Zhou, Yao Ma. *Ground Then Rank: Revisiting Knowledge-Based VQA with Training-Free Entity Identification.* ACL 2026 Findings, to appear.
+1. **Qian Ma**, S M Rayeed, Charles V. Stewart, Qiong Wu, Yao Ma. *Identifying and Resolving Pitfalls of Knowledge-Based VQA Benchmarks: Auditing, Repairing, and Augmenting.* ECCV 2026.
+2. **Qian Ma**, Qiong Wu, Zhengyi Zhou, Yao Ma. *Ground Then Rank: Revisiting Knowledge-Based VQA with Training-Free Entity Identification.* ACL 2026 Findings.
 3. **Qian Ma**, Haitao Mao, Jingzhe Liu, Zhehua Zhang, Chunlin Feng, Yu Song, Yihan Shao, Yao Ma. *Do Neural Scaling Laws Exist on Graph Self-Supervised Learning?* LoG 2024.
 4. **Qian Ma**, Hongliang Chi, Hengrui Zhang, Kay Liu, Zhiwei Zhang, Lu Cheng, Suhang Wang, Philip S. Yu, Yao Ma. *Overcoming Pitfalls in Graph Contrastive Learning Evaluation: Toward Comprehensive Benchmarks.* ACM SIGKDD Explorations, 2025.
 5. **Qian Ma**, Haitao Mao, Zhehua Zhang, Qiong Wu, Zhengyi Zhou, Yao Ma. *Cross-Domain GraphWalker: Harnessing LLMs for Graph Structure Learning.* Under review.

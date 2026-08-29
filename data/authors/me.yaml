@@ -12,7 +12,7 @@ status:
   icon: "☕️"
 role: Ph.D. Student in Computer Science
 bio: |
-  I am a Ph.D. student in Computer Science at the DAMI Lab, Rensselaer Polytechnic Institute, advised by Prof. [Yao Ma](https://yaoma24.github.io/). My research focuses on multimodal learning and reasoning, vision-language models, multimodal RAG, knowledge-based visual question answering (KB-VQA), and reliable foundation-model evaluation. I also have expertise in graph learning, graph foundation models, graph self-supervised learning, spatio-temporal forecasting, time-series modeling, and urban computing.
+  I am a third-year Ph.D. student in Computer Science at the DAMI Lab, Rensselaer Polytechnic Institute, where I am fortunate to be advised by Prof. [Yao Ma](https://yaoma24.github.io/). I study reliable multimodal reasoning, particularly how VLMs ground visual evidence, integrate external and internal knowledge, and decide when the evidence is sufficient to answer. I also have expertise in graph learning, graph foundation models, graph self-supervised learning, spatio-temporal forecasting, time-series modeling, and urban computing.
 
   <aside class="collaboration-note" aria-labelledby="collaboration-note-title">
     <p class="collaboration-note__eyebrow">Open to conversations &amp; collaboration</p>
@@ -49,13 +49,11 @@ links:
     url: uploads/MAQian_Resume.pdf
     label: CV
 interests:
-  - Multimodal Learning and Reasoning
+  - Reliable Multimodal Reasoning
   - Vision-Language Models
-  - Multimodal RAG
-  - Knowledge-Based Visual Question Answering
-  - Reliable Foundation-Model Evaluation
-  - Graph Learning and Graph Foundation Models
-  - Spatio-Temporal Forecasting
+  - Visual Evidence Grounding
+  - External and Internal Knowledge Integration
+  - Evidence Sufficiency and Selective Answering
 education:
   - degree: Ph.D. Student in Computer Science
     institution: Rensselaer Polytechnic Institute
@@ -162,6 +160,14 @@ languages:
     percent: 90
     label: Fluent; IELTS 7.0
 awards:
+  - title: KDD 2026 Best Reviewer — Research Track
+    awarder: ACM SIGKDD
+    date: "2026-08-01"
+    icon: hero/trophy
+  - title: KDD 2026 Best Reviewer — Datasets & Benchmarks Track
+    awarder: ACM SIGKDD
+    date: "2026-08-01"
+    icon: hero/trophy
   - title: Outstanding Student Scholarship
     awarder: University of Electronic Science and Technology of China
     date: "2021-09-01"

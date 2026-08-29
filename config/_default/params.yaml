@@ -9,7 +9,7 @@ hugoblox:
     organization: "Rensselaer Polytechnic Institute"
     type: person
     tagline: "Ph.D. Student in Computer Science"
-    description: "Qian Ma is a Ph.D. student in Computer Science at Rensselaer Polytechnic Institute, working on multimodal learning, vision-language models, multimodal RAG, KB-VQA, reliable foundation-model evaluation, graph learning, and spatio-temporal forecasting."
+    description: "Qian Ma is a Ph.D. student in Computer Science at Rensselaer Polytechnic Institute studying reliable multimodal reasoning, visual evidence grounding, knowledge integration, and evidence sufficiency in vision-language models."
     social:
       twitter: ""
 
